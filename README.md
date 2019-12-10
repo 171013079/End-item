@@ -431,8 +431,7 @@ HTTP 方法：POST
         }
 
 ```
-* 输出
-
+* 输出（图片示例)
 ![8C8785F0541242ABA9386DE54E125DEE.jpg](https://upload-images.jianshu.io/upload_images/9540329-f1b3a80d46d81bb3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![5A9CBC02D0D946B197541C9A586F5963.jpg](https://upload-images.jianshu.io/upload_images/9540329-26e6156e50a50cde.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
