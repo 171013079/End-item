@@ -470,7 +470,7 @@ HTTP 方法：POST
 
 #### 第四部分：清单
 1.产品原型图链接：
-（由于github桌面版出了点问题 上传不了axure文件 稍后补上链接）
+http://nfunm079.gitee.io/art_gallery/（由于github桌面版出了点问题 上传不了axure文件 稍后补上内容）
 
 2.调用api的链接:
 
