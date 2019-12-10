@@ -470,4 +470,11 @@ HTTP 方法：POST
 
 #### 第四部分：清单
 1.产品原型图链接：
+
 2.调用api的链接:
+
+* .路线规划：[https://lbs.amap.com/getting-started/path](https://lbs.amap.com/getting-started/path)
+
+* .图片风格化：[https://ai.baidu.com/tech/imageprocess/style_trans](https://ai.baidu.com/tech/imageprocess/style_trans)
+
+* .地图定位：[https://lbs.amap.com/getting-started/locate](https://lbs.amap.com/getting-started/locate)
