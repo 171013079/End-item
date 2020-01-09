@@ -1,20 +1,24 @@
+## 期末项目设计
+价值主张：满足你所有对艺术展览服务要求的想象
+使用户能够更快的找到感兴趣的艺术馆/展览、并兼具打卡、购票、攻略为一体、致力于给用户更好的艺术馆信息服务最好的体验。
+
 发布名称|发布时间|发布人
 ---|:--:|---:
 馆藏——艺术馆信息打卡app|2019.12.2|吴惠怡
 <br> 
 
+ #### 
+
  #### 第一部分
 <br> 
- ##### 一、价值设计 
-
+##### 一、价值设计 
 **市场调查**：市面上存在的博物馆app大都是为两种类型：一类是信息整合类，收集整理所有的展览信息如VART，另一类是艺术馆内展品的展览，如故宫app每日故宫。功能较单一，app使用率较低。随着大众对精神生活的要求提高，大家需要各种展览包括博物馆美术馆的信息，而对应功能的app则稍显枯燥与功能单一。我希望能在提供信息的基础上做出一些趣味的社区交流与互动，增加对展览的兴趣。所以喜欢做出一个结合了艺术馆打卡与信息查询的app。
 <br>
 **目前我的设想是**：
 1.调用地图api，在地图上标注包括博物馆，美术馆在内的艺术馆的位置。并且显示近期展览信息。
 2.开启定位服务，用户可以选择根据自身位置选择最近的艺术馆，或是从感兴趣的展览页面查看定位与艺术馆的距离信息。
 3.调用百度图像风格转换api，让参观者可以选择公开或者私人观看自己转换风格后的照片进行定位打卡，让参观者可以大概了解展览的内容但又较小程度的透露展品信息。
-
- ##### 二、价值主张/最小可行性产品
+##### 二、价值主张/最小可行性产品
 一个可以查询展览信息并且可以上传风格化照片打卡的app
 
 ##### 三、背景
@@ -52,12 +56,17 @@
 
 #### 第二部分：
 ##### 一、原型文档交互
-![1.首页](https://upload-images.jianshu.io/upload_images/9540329-9d5aa1d5005833de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![2.定位查询](https://upload-images.jianshu.io/upload_images/9540329-4222ca6aa6da7aad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![3.路程推荐](https://upload-images.jianshu.io/upload_images/9540329-cd0efbf63b44f175.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![4.拍照打卡](https://upload-images.jianshu.io/upload_images/9540329-da97818224e04493.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+[原型链接](http://nfunm079.gitee.io/art_gallery)
+![首页](https://upload-images.jianshu.io/upload_images/9540329-0631b8a53e202165.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![艺术馆](https://upload-images.jianshu.io/upload_images/9540329-b13a3972bcdcb305.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![附近](https://upload-images.jianshu.io/upload_images/9540329-546c9472eb072f29.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![动态](https://upload-images.jianshu.io/upload_images/9540329-7f176847b9d17373.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![拍照打卡](https://upload-images.jianshu.io/upload_images/9540329-b994b4dfbc389a8b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![展览详情](https://upload-images.jianshu.io/upload_images/9540329-dce29db5c4a8f2ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![路程推荐](https://upload-images.jianshu.io/upload_images/9540329-d64d325bad573c9d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+页面均可在原型链接中查看 不再赘述
 ##### 二、产品结构图
 1.产品功能结构图
 ![馆藏app产品结构图 .png](https://upload-images.jianshu.io/upload_images/9540329-8e8e7f865248a8de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -71,7 +80,6 @@
 
 4.产品结构图
 ![馆藏app产品结构图 (2).png](https://upload-images.jianshu.io/upload_images/9540329-e1e58a5635904c2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 
 #### 第三部分
 ##### 一、API的调用
@@ -431,46 +439,51 @@ HTTP 方法：POST
         }
 
 ```
-* 输出（图片示例)
+* 输出
+
 ![8C8785F0541242ABA9386DE54E125DEE.jpg](https://upload-images.jianshu.io/upload_images/9540329-f1b3a80d46d81bb3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![5A9CBC02D0D946B197541C9A586F5963.jpg](https://upload-images.jianshu.io/upload_images/9540329-26e6156e50a50cde.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ##### 二、API产品概率性
 一.高德api的导航与定位服务宣称有着3个优点：
-1.超高的服务可用性，持续稳定支持您的业务发展
- 2.快速的服务响应，服务请求到达高德至完成处理的平均时长不超过200ms
-3.全方位的技术支持 工单体系提供全方位的技术支持，更有技术支持专业版可供选择
+* 超高的服务可用性，持续稳定支持您的业务发展
+* 快速的服务响应，服务请求到达高德至完成处理的平均时长不超过200ms
+* 全方位的技术支持 工单体系提供全方位的技术支持，更有技术支持专业版可供选择
 
 二、高德路线规划基于全面的路网信息，结合实时路况，有在多端为用户提供准确的路线规划能力。
 
 三.百度旗下的图像风格转变api对于转换图片是有着一定能力的，加上图片转换这个任务的特殊性，极少有出错的可能，更多的情况可能是图片不够美观。
 
-##### 三、API使用风险评估
-路线规划与定位等api可谓最早发展的api，完善程度较高，出错率较小。
+##### 三、与其他产品的比较
+* 与百度地图相比，高德地图道路更新上非常及时，拥有更完整的地图：涵盖了全国364个城市的352万公里的路况，且可以通过AR虚拟实景为用户实时导航。[高德与百度性能比较相关文章链接](https://baijiahao.baidu.com/s?id=1620901671158752564&wfr=spider&for=pc)
+ * 高德地图定在GPS 10米精度做到90%以上，且可以离线导航。而百度地图定位较慢。
+* 目前了解到的国内可以进行图像风格转换的只有百度。
+
+##### 四、API使用风险评估
+路线规划与定位等api可谓最早发展的api，完善程度较高，出错率较小。[定位未来发展性相关文章链接](https://segmentfault.com/a/1190000020775948?utm_source=tag-newest)
 图像风格转换因其特性出错率较低
-##### 四、产品的可行性
+
+##### 五、产品的可行性
 1.该产品一定程度上解决了用户需要查询艺术馆及展览信息的需求
 2.有小众的艺术馆/展览爱好者的潜在用户
 3.有成为社区，形成庞大ucg内容的可能
 
-##### 五、交互需求
+##### 六、交互需求
 输入框：若输入框有默认提示，点击输入框，自动弹出软键盘进行输入
-软键盘的弹出及退出机制：当输入框内必须输入的为数字时，弹出数字软键盘，其余时候，弹出文字软键盘；当在软键盘以外区域，点击或向下滑动时，软键盘退去
-##### 六、异常流
-1.如果没办法定位正确，建议用户走到较为地标性的建筑附近进行打卡
+软键盘的弹出及退出机制：当输入框内必须输入的为数字时，弹出数字软键盘，其余时候，弹出文字软键盘；当在软键盘以外区域，点击或向下滑动时，软键盘退去。
+##### 七、异常流
+1.如果没办法定位正确，建议用户走到较为地标性的建筑附近进行打卡，或是手动输入地点进行定位。
 2.路径规划错误时，让用户及时反馈说明。
-3.如果照片拍摄时没办法转换到喜欢的照片具体样子，可以建议用户再次拍照。
-##### 七、非功能性需求
+3.如果照片拍摄时没办法转换到喜欢的照片具体样子，可以建议用户再次拍照，或者转换风格。
 
 ##### 八、结果预期
-前期可能是个人化的app，供用户查看展览/艺术馆信息及完成打卡。后期可能发展为小众的艺术馆交流社区，不断地产出出行攻略及推荐等，形成此类产品较有公信力的一个。
-
-
+前期可能是个人化的app，供用户查看展览/艺术馆信息及完成打卡。后期可能发展为小众的艺术馆交流社区，不断地产出出行攻略及推荐等，形成此类产品较有公信力的一个社群。
 
 #### 第四部分：清单
-1.产品原型图链接：
-http://nfunm079.gitee.io/art_gallery/（由于github桌面版出了点问题 上传不了axure文件 稍后补上内容）
+1.原型
+* 产品原型图链接：http://nfunm079.gitee.io/art_gallery
+* 原型链接:https://gitee.com/NFUNM079/art_gallery
 
 2.调用api的链接:
 
@@ -479,3 +492,4 @@ http://nfunm079.gitee.io/art_gallery/（由于github桌面版出了点问题 上
 * .图片风格化：[https://ai.baidu.com/tech/imageprocess/style_trans](https://ai.baidu.com/tech/imageprocess/style_trans)
 
 * .地图定位：[https://lbs.amap.com/getting-started/locate](https://lbs.amap.com/getting-started/locate)
+
