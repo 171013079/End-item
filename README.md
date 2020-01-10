@@ -484,7 +484,7 @@ HTTP 方法：POST
 #### 第四部分：清单
 1.原型
 * 产品原型图链接：http://nfunm079.gitee.io/art_gallery
-* 原型链接:https://gitee.com/NFUNM079/art_gallery
+* 原型原文件链接:https://gitee.com/NFUNM079/art_gallery
 
 2.调用api的链接:
 
